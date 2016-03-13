@@ -6,6 +6,7 @@
     "start-dev": "node server.js",
     "start": "NODE_ENV=production node server.prod.js",
     "build": "NODE_ENV=production webpack --config webpack.config.prod.js --progress --colors -p",
+    "postinstall": "NODE_ENV=production npm run build",
     "lint": "eslint src"
   },
   "repository": {
