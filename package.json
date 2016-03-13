@@ -31,31 +31,29 @@
     "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
   },
   "homepage": "https://github.com/gaearon/react-hot-boilerplate",
-  "devDependencies": {
+  "dependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
     "babel-loader": "^6.0.1",
     "babel-preset-es2015": "^6.0.15",
     "babel-preset-react": "^6.0.15",
     "babel-preset-stage-0": "^6.0.15",
-    "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.6.2",
-    "react-hot-loader": "^1.3.0",
-    "webpack": "^1.12.2",
-    "webpack-dev-server": "^1.12.1"
-  },
-  "dependencies": {
+    "eslint": "^1.10.3",
     "exports-loader": "^0.6.3",
     "fs": "0.0.2",
     "json-loader": "^0.5.4",
     "lodash": "^4.6.1",
-    "nunjucks": "^2.0.0",
     "nunjucks-loader": "^2.3.0",
-    "react": "^0.14.7",
+    "nunjucks": "^2.0.0",
     "react-color": "^2.0.0",
     "react-copy-to-clipboard": "^4.0.2",
     "react-dom": "^0.14.6",
     "react-highlight": "^0.7.0",
-    "react-svg-icon-generator": "^0.1.2"
+    "react-hot-loader": "^1.3.0",
+    "react-svg-icon-generator": "^0.1.2",
+    "react": "^0.14.7",
+    "webpack-dev-server": "^1.12.1",
+    "webpack": "^1.12.2"
   }
 }

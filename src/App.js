@@ -1,6 +1,5 @@
 import Blueberry from './Blueberry.react';
 import CopyToClipboard from 'react-copy-to-clipboard';
-import Playground from 'component-playground';
 import Icon from './Icon.react';
 import Highlight from 'react-highlight';
 import lodash from 'lodash';
