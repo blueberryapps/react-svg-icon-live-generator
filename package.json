@@ -1,7 +1,7 @@
 {
-  "name": "react-hot-boilerplate",
+  "name": "react-svg-icon-live-generator",
   "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "description": "Live svg icon generator",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src"
@@ -21,7 +21,7 @@
     "edit",
     "webpack"
   ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "Ondrej Bartas",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
@@ -41,7 +41,17 @@
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "exports-loader": "^0.6.3",
+    "fs": "0.0.2",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.6.1",
+    "nunjucks": "^2.0.0",
+    "nunjucks-loader": "^2.3.0",
+    "react": "^0.14.7",
+    "react-color": "^2.0.0",
+    "react-copy-to-clipboard": "^4.0.2",
+    "react-dom": "^0.14.6",
+    "react-highlight": "^0.7.0",
+    "react-svg-icon-generator": "^0.1.2"
   }
 }

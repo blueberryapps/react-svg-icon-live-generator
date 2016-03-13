@@ -1,10 +1,54 @@
 <!doctype html>
 <html>
   <head>
-    <title>Sample App</title>
+    <title>React SVG Icon Live Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/github.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <style>
+      pre {
+        word-wrap: normal;
+      }
+      pre code {
+        white-space: pre;
+      }
+      .vcenter {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+      }
+      .btn-active {
+        background-color: #DEDEDE
+      }
+      .btn-xxl {
+        padding: 15px 23px;
+        font-size: 25px;
+        line-height: 1.3333333;
+        border-radius: 9px;
+      }
+      .btn-file {
+          position: relative;
+          overflow: hidden;
+      }
+      .btn-file input[type=file] {
+          position: absolute;
+          top: 0;
+          right: 0;
+          min-width: 100%;
+          min-height: 100%;
+          font-size: 100px;
+          text-align: right;
+          filter: alpha(opacity=0);
+          opacity: 0;
+          outline: none;
+          background: white;
+          cursor: inherit;
+          display: block;
+      }
+    </style>
   </head>
   <body>
-    <div id='root'>
+    <div id='root' class="container">
     </div>
     <script src="/static/bundle.js"></script>
   </body>
