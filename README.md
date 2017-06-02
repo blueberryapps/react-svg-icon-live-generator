@@ -1,4 +1,4 @@
-Live SVG Icon React Component generator website
+Live SVG Icon React Component generator website [![Dependency Status](https://dependencyci.com/github/blueberryapps/react-svg-icon-live-generator/badge)](https://dependencyci.com/github/blueberryapps/react-svg-icon-live-generator)
 ===============================================
 
 # Go to https://react-svg-icon-live-generator.herokuapp.com for generating React Component Icon from svgs online.
